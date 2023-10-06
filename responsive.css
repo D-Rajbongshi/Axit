@@ -1,0 +1,312 @@
+@media screen and (max-width:1200px) {
+    .nav .logo img{
+        width: 60px;
+    }
+    .header .nav nav a {
+        margin:0 15px ;
+    }
+    .header .headerLayer .headerLeft img{
+        width: 100px;
+    }
+    .header .headerLayer .headerLeft h4{
+        font-size: 20px;
+    }
+    .header .headerLayer .headerLeft p{
+        font-size: 14px;
+    }
+    .left-br{
+        display: none;
+    }
+    .header .headerLayer .headerLeft .downloadBtn{
+        padding: 3px 7px;
+        font-size: 15px;
+    }
+    .header .headerRight form{
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    .header .headerRight form h1{
+        font-size: 14.5px;
+        padding: 10px 5px;
+    }
+    .headerLayer .headerRight form input{
+        margin: 18px auto;
+    }
+    .socialMedia .socialRight .icons a{
+        font-size: 22px;
+        margin: 0 12px;
+    }
+    .container .feature-2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .container .feature-2 img{
+        width: 100%;
+    }
+    .container .feature2-txt {
+        padding-left: 30px;
+    }
+    .container .feature-2 p{
+        text-align: left;
+    }
+    .container .feature-3{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .container .feature-3 img{
+        width: 100%;
+    }
+}
+
+@media  screen and (max-width: 768px){
+    .nav .logo img{
+        width: 50px;
+    }
+    .header .nav nav a {
+        margin:0 10px ;
+        font-size: 15px;
+    }
+    .header .headerLayer .headerLeft img{
+        width: 80px;
+    }
+    .header .headerLayer .headerLeft h4{
+        font-size: 17px;
+    }
+    .header .headerLayer .headerLeft p{
+        font-size: 12px;
+    }
+    .left-br{
+        display: none;
+    }
+    .header .headerLayer .headerLeft .downloadBtn{
+        padding: 3px 7px;
+        font-size: 14px;
+    }
+    .header .headerRight form{
+        width: 75%;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    .header .headerRight form h1{
+        font-size: 12px;
+        padding: 10px 5px;
+    }
+.header .headerRight form input{
+    margin: 10px auto;
+}
+.header .headerRight form a{
+    padding:7px 0 ;
+    font-size: 14px;
+}
+.headerLayer .headerRight form input{
+    margin: 18px auto;
+}
+.socialMedia .socialRight .icons a{
+    font-size: 18px;
+    margin: 0 10px;
+}.socialMedia .socialRight .icons{
+    margin-left: 8%;
+}
+.container .socialMedia{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+}
+.container .tabsArea .tabs .tab{
+    width: 70px;height: 70px;
+    line-height: 70px;
+}
+.container .packeges .packege .pricing-header h2{
+    padding: 8px 0;
+    font-size: 14px;
+}
+.container .packeges .packege .pricing-header h1{
+    font-size: 40px;
+    padding: 10px 0;
+}
+.container .packeges .packege .pricing-header h1 sub{
+    font-size: 20px;
+    
+}
+.container .packeges .packege .pricing-header span{
+    padding: 5px 0;
+    font-size: 14px;
+}
+.container .packeges .packege .pricing-header h3{
+    padding: 7px 0;
+    font-size: 13px;
+}
+.container .packeges .packege .pricing-body p{
+    margin: 0;
+    padding: 10px 0;
+    font-size: 12px;
+}
+}
+@media screen and (max-width: 768px) {
+    .container .header .nav{
+        display: block;
+        text-align: right;
+        position: relative;
+    }
+    .container .header .nav nav{
+        background-color: #ffffff;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top:50px;
+        transition: 0.5s;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .header .nav nav a{
+        color: gray;
+        display: block;
+        text-align: left;
+        padding:10px 0 10px 7% ;
+    }
+    .container .nav-toggle{
+        display: block;
+        position: absolute;
+        color:white;
+        font-size: 20px;
+        top: 0;
+        left: 20px;
+        text-align: center;
+        line-height: 60px;
+        cursor: pointer;
+        transition: .5s;
+    }
+    .container .nav-toggle:hover{
+        color: #ff8b38;
+    }
+    .container .close-nav{
+        display: none;
+    }
+    .container .header header{
+        height: 50vh;
+    }
+    .container .header header .headerLayer{
+        grid-template-columns: 100%;
+        padding: 50px 7% ;
+        overflow-y: scroll;
+        text-align: center;
+    }
+    .container .headerLeft .headerLine{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .container .headerLeft .downloadBtn{
+        margin-bottom: 30px;
+    }
+    .container .headerRight {
+        margin-bottom:20px ;
+    }
+    .container .headerRight form{
+        width: 60%;
+    }
+    .container .socialMedia{
+        display: block;
+        text-align: center;
+    }
+    .container .socialMedia .socialLeft{
+        margin-bottom: 20px;
+    }
+    .container .socialMedia .socialRight{
+        padding: 0;
+    }
+    .container .socialMedia .socialRight .icons a{
+        margin: 0 5px;
+        padding: 0;
+    }
+    .container .tabsArea{
+        grid-template-columns:100%;
+    }
+    .container .tabsArea .tabs{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .container .tabsArea .tabs .tab{
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 10px;
+    }
+    .container .feature-2{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .container .feature-2 .feature2-txt{
+        padding: 0;
+    }
+    .container .feature-3{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .container .feature-3 .feature-3-left{
+        text-align: justify;
+    }
+    .container .awesome .awesome-text h1{
+        font-size: 18px;
+    }
+    .container .suggests{
+        display: grid;
+        grid-template-columns:100%;
+    }
+    .container .suggests .suggest{
+        margin: 20px 0;
+    }
+    .container .pricing .pricing-text h1{
+        font-size: 20px;
+    }
+    .container .pricing .packeges {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .container .pricing .packeges .packege{
+        width: 80%;
+        margin: 40px auto;
+    }
+    .container .customers-area .customer-text h1{
+        font-size: 20px;
+    }
+    .container .customers-area .customers{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .container .customers-area .customers .customer{
+        width: 100%;
+    }
+    .container .stylish .stylish-layer{
+        padding: 50px 7%;
+    }
+    .container .stylish .stylish-layer h1{
+        font-size: 20px;
+    }
+    .container .stylish .stylish-layer button{
+    padding: 5px 10px;
+    }
+    .container .contact .contact-text h1{
+        font-size: 20px;
+    }
+    .container .contact .form-details{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .container .contact .form-details .deatails{
+        margin-bottom: 20px;
+    }
+    .container .contact .form-msg textarea{
+        padding: 0;
+        padding-left: 15px;
+        height: 100px;
+        margin-top: 30px;
+    }
+    .container .footer .footer-icons a{
+        font-size: 18px;
+        margin: 0 15px;
+    }
+
+    
+}
